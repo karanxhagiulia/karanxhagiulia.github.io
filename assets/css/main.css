@@ -81,7 +81,10 @@ input, select, textarea {
 	body {
 		-ms-overflow-style: scrollbar;
 	}
-
+	.responsive {
+		width: 100%;
+		height: auto;
+	}
 	@media screen and (max-width: 480px) {
 
 		html, body {
